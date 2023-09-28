@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>operator aritmatika</title>
+</head>
+<body>
+   <script>
+    
+   const person = {
+      "nama lengkap":"Tebar Anut Tirto",
+      "nama" : "Tebar",
+      alamat: "depok tercintta",
+      umur:30
+
+   };
+// ubah property/ attribute
+// person["nama"]= "Tebar anut Tirto";
+// person["alamat"]= "Depok tercinta";
+// person["umur"]= 30;
+
+console.info(`nama :${person.nama}`);
+console.info(`nama lengkap:${person["nama lengkap"]}`)
+console.info(`alamat:${person.alamat}`);
+console.info(`alamat:${person.umur}`);
+
+
+
+console.table(person);
+
+delete person["umur"];
+
+console.table(person);
+
+
+
+
+
+
+   </script>
+
+</body>
+</html>
